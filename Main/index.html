@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MVC Tech Blog</title>
-  <link rel="stylesheet" href="./css/jass.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="public/css/jass.css">
+  <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
       </h1>
       <nav>
         <!-- Conditionally render login or logout links -->
-        {{!-- create handlebars for  --}}
-        {{!-- HOME, DASHBOARD, LOGOUT, LOGIN --}}
+        <!-- {{!-- create handlebars for  --}}
+        {{!-- HOME, DASHBOARD, LOGOUT, LOGIN --}} -->
         <a class="link" href="/">Home</a> 
         <a class="link" href="/dashboard">Dashboard</a>
         {{#if loggedIn}}
@@ -28,6 +28,7 @@
         <a class="link" href="/login">Login</a>
         {{/if}}
       </nav>
+      <!-- ////////////////////////////////////////////// -->
     </header>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
@@ -40,7 +41,7 @@
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
-  <script src="./js/logout.js"></script>
+  <script src="public/js/logout.js"></script>
   {{/if}}
 </body>
 

@@ -1,0 +1,11 @@
+[
+  {
+   "text-input": "Handlebars is a simple templating language. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions."
+  },
+  {
+    "text-input": "You can use comments in your handlebars code just as you would in your code. Since there is generally some level of logic, this is a good practice. The comments will not be in the resulting output. If you'd like the comments to show up. Just use html comments, and they will be output. Any comments that must contain }} or other handlebars tokens should use the {{!-- --}} syntax."
+  },
+  {
+    "text-input": "Block expressions allow you to define helpers that will invoke a section of your template with a different context than the current. These block helpers are identified by a # preceeding the helper name and require a matching closing mustache, /, of the same name."
+  }
+]
